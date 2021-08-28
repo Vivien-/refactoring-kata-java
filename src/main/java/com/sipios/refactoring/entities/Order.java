@@ -1,16 +1,16 @@
 package com.sipios.refactoring.entities;
 
-public class Body {
+public class Order {
 
     private Item[] items;
     private String type;
 
-    public Body(Item[] is, String t) {
+    public Order(Item[] is, String t) {
         this.items = is;
         this.type = t;
     }
 
-    public Body() {
+    public Order() {
     }
 
     public Item[] getItems() {
