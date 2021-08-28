@@ -21,8 +21,6 @@ public class CustomerClassRegistry {
     }
 
     public Class<? extends Customer> getCustomerClassByType(String type) {
-        System.out.println(customerClasses);
-        System.out.println(customerClasses.get(type));
         return customerClasses.getOrDefault(type, null);
     }
 
