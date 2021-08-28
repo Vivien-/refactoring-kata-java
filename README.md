@@ -46,3 +46,8 @@ What do we expect from you:
 - refacto les classes dans des fichiers séparés
 - utiliser interface Customer avec implémentation pour les différents types avec getDiscountRate(), getLimitPrice()
 - utiliser un repository avec map pour chaque type de customer qui implémente aussi getType()
+
+## Todo
+- Dynamiquement récupérer les classes qui instancient Customer / Product pour les mettre dans le registry
+- Validation de la classe Order (pas de nb négatifs etc)
+- Paramétriser constantes avec conf / abstraire la récupération pour permettre de le faire via accès db
