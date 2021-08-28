@@ -40,3 +40,9 @@ What do we expect from you:
 - You can launch the tests with `./mvnw test`
 
 **Good luck!**
+
+# Steps
+- faire des TU / TI sur les UC (ici que pour un case mais il faudrait faire pour tous, edge case etc)
+- refacto les classes dans des fichiers séparés
+- utiliser interface Customer avec implémentation pour les différents types avec getDiscountRate(), getLimitPrice()
+- utiliser un repository avec map pour chaque type de customer qui implémente aussi getType()
